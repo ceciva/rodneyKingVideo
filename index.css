@@ -1,0 +1,145 @@
+body{
+    font-size: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+h2{
+    font-size: 2rem;
+    align-items: center;
+    color:#FF6600;
+    font-weight: 900;
+    font-style: normal;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-style: normal;
+}
+h4{
+    font-size: 1.125rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.text{
+    text-align: center;
+    line-height: 2rem;
+}
+
+.textLeft{
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.underlined{
+    text-decoration: underline;
+}
+.violet{
+    color: #551A8B;
+}
+.black{
+    color: black;
+}
+.orange{
+    color: #FF6600;
+}
+.white{
+    color: white;
+    padding-left: 1vw;
+}
+.copyright{
+    color: white;
+    text-align: center;
+    font-size: 0.813rem;
+    font-weight: 700;
+    font-style: normal;
+}
+.quote{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.bannerComposite1{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    width: 70vw;
+    height: auto;
+}
+.bannerBackground{
+    background-color: black;
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerRow{
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+.w-80{
+    width: 80vw;
+}
+.pic60{
+    width: 60vw;
+}
+
+.picWText{
+    float: left;
+    padding-right: 3vw;
+}
+
+@media(max-width:768px){
+    h2{
+        font-size:1.7rem ;
+    }
+    h3{
+        font-size:1.3rem ;
+    }
+    h4{
+        font-size:1rem ;
+    }
+    p{
+        font-size:1.2rem ;
+    }
+    .textLeft{
+        font-size:1.2rem ;
+    }
+    .copyright{
+        font-size:0.5rem ;
+    }
+}
+
+@media(max-width:576px){
+    h2{
+        font-size:1.3rem ;
+    }
+    h3{
+        font-size:1rem ;
+    }
+    h4{
+        font-size:0.8rem ;
+    }
+    p{
+        font-size:1rem ;
+    }
+    .textLeft{
+        font-size:1rem ;
+    }
+    .copyright{
+        font-size:0.3rem ;
+    }
+}
