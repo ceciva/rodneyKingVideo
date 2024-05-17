@@ -157,10 +157,14 @@ p{
         font-size:1.3rem ;
     }
     h3{
-        font-size:1rem ;
+        font-size:0.8rem ;
+        line-height: 1rem;
     }
     h4{
         font-size:0.8rem ;
+    }
+    h5{
+        font-size: 1rem;
     }
     p{
         font-size:1rem ;
@@ -169,6 +173,10 @@ p{
         font-size:1rem ;
     }
     .copyright{
-        font-size:0.3rem ;
+        font-size:0.5rem ;
+       
+    }
+    .bannerComposite1{
+        width: 95%;
     }
 }
