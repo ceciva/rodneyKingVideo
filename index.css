@@ -22,32 +22,53 @@ h3{
 h4{
     font-size: 1.125rem;
 }
+h5{
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    line-height: 0.5rem;
+}
 
+a{
+    color: #0000FF;
+    text-decoration: underline;
+}
 p{
     font-size: 1.5rem;
     line-height: 2.5rem;
+}
+
+
+.smallHeight{
+    line-height: 1rem;
 }
 
 .text{
     text-align: center;
     line-height: 1.5rem;
 }
+.italic{
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 900;
+    
+}
 
 .textLeft{
     text-align: left;
     font-size: 1.5rem;
-    line-height: 2rem;
-    font-weight: 400;
+    line-height: 2.5rem;
+    font-weight: 700;
     font-style: normal; 
 }
 
 .underlined{
     text-decoration: underline;
 }
-a{
-    color: #180fce;
-    text-decoration: underline;
-}
+
 .black{
     color: black;
 }
@@ -59,7 +80,7 @@ a{
     padding-left: 1vw;
 }
 .copyright{
-    color: white;
+    color: black;
     text-align: center;
     font-size: 0.813rem;
     font-weight: 700;
@@ -70,13 +91,15 @@ a{
     font-style: normal;
     font-size: 1.5rem;
 }
-
-.bannerComposite1{
-    padding-left: 15vw;
-    padding-right: 15vw;
-    width: 70vw;
-    height: auto;
+.mt{
+    margin-top: 0px;
+    padding-top: 0px;
 }
+.mb{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
 .bannerBackground{
     background-color: black;
     width: 100vw;
